@@ -14,7 +14,7 @@ function onSubmit() {
 
 <template>
   <div class="my-5 pt-5">
-    <h2 class="text-center">Iniciar Sesión</h2>
+    <h1 class="text-center">Iniciar Sesión</h1>
     <form class="form" @submit.prevent="onSubmit">
       <label class="form-label">Usuario:</label>
       <input
@@ -48,10 +48,10 @@ function onSubmit() {
   width: 20%;
   min-width: 350px;
   max-width: 100%;
-  background: rgba(4, 94, 87, 0.9);
+  background: rgba(19, 35, 47, 0.9);
   border-radius: 5px;
   padding: 40px;
-  box-shadow: 0 4px 10px 4px rgba(14, 5, 5, 0.3);
+  box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.3);
 }
 
 .form-label {
@@ -64,11 +64,12 @@ function onSubmit() {
   padding: 10px 15px;
   background: none;
   background-image: none;
-  border: 1px solid rgb(173, 8, 8);
-  color: rgb(149, 24, 24)}
+  border: 1px solid white;
+  color: white;
+}
 
 .form-submit {
-  background: #033c7e;
+  background: #ee5007;
   border: none;
   border-radius: 5rem;
   color: white;
